@@ -9,7 +9,7 @@ Licence URI: https://www.os-templates.com/template-terms
 File: Layout CSS
 */
 
-@import url("fontawesome-free/css/fontawesome-all.min.css");
+@import url("fontawesome-free/css/all.min.css");
 @import url("framework.css");
 
 /* Rows
@@ -353,7 +353,7 @@ label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#FBAB45 !important;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.35);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
